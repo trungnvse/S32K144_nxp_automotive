@@ -1,6 +1,5 @@
 ###### MOCK MCU - BOOT LOADER ######
 
-## TrungNV87
 ## S32DS version 3.5
 ## Board S32K144
 

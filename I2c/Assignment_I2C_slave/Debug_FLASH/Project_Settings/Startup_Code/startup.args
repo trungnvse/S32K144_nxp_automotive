@@ -1,0 +1,14 @@
+-DCPU_S32K144HFT0VLLT
+-I"E:/PROGRAMMING/FSA_Fresher/MCU/Code/S32DS_3_5/Assignment_I2C_slave/include"
+-I"E:/PROGRAMMING/FSA_Fresher/MCU/Code/S32DS_3_5/Assignment_I2C_slave/src/board"
+-I"E:/PROGRAMMING/FSA_Fresher/MCU/Code/S32DS_3_5/Assignment_I2C_slave/src/core"
+-I"E:/PROGRAMMING/FSA_Fresher/MCU/Code/S32DS_3_5/Assignment_I2C_slave/src/drivers"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-ffunction-sections
+-fdata-sections
+-mcpu=cortex-m4
+-specs=nosys.specs

@@ -1,0 +1,15 @@
+-T
+"E:/PROGRAMMING/FSA_Fresher/MCU/Code/S32DS_3_5/Assignment_UART/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"Assignment_UART.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=nosys.specs
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/app/src/main.o"
+"./src/lpuart1/src/lpuart1.o"
+"./src/parse_srec/src/parse-srec.o"
+"./src/queue/src/queue.o"
